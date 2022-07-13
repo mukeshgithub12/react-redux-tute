@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Demo from './components/Demo';
+// import Home from './components/Home';
+// import Profile from './components/Profile';
+// import FunctionBase from './components/FunctionBase';
+// import Toggle from './components/ToggleClass';
+// import EventHandling from './components/EventHandling';
+// import LifeCycle from './components/LifeCycle';
+// import HooksMeathod from './components/Hooks/HooksMeathod';
+// import Form from './components/Hooks/Form';
+// import { Routes, Route, Link } from "react-router-dom";
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <center><h1> Welcome  To React Js</h1></center>
+      {/* <Home/>
+      <Profile/>
+      <FunctionBase title="Function Base (props)" title2={{name:'Mukesh Kumar'}}/>
+      <Toggle/>
+      <EventHandling/>
+      <LifeCycle/>
+     <HooksMeathod/>
+     <Form/> */}
+
+
+     <Demo/>
     </div>
   );
 }
