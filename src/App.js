@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
-import User from './components/Redux/User';
+import HomeReduxCon from './components/Redux/HomeReduxCon';
+
+// import User from './components/Redux/User';
 // import Home from './components/Home';
 // import Profile from './components/Profile';
 // import FunctionBase from './components/FunctionBase';
@@ -16,7 +18,7 @@ import User from './components/Redux/User';
 function App() {
   return (
     <div className="App">
-      <center><h1> Welcome  To React Redux  in  One Page</h1></center>
+      {/* <center><h1> Welcome  To React Redux  in  One Page</h1></center> */}
       {/* <Home/>
       <Profile/>
       <FunctionBase title="Function Base (props)" title2={{name:'Mukesh Kumar'}}/>
@@ -26,7 +28,9 @@ function App() {
      <HooksMeathod/>
      <Form/> */}
 
-     <User data={{name:'Mukesh Kumar',age:23}}/>
+     {/* <User data={{name:'Mukesh Kumar',age:23}}/> */}
+     {/* <hr/> */}
+     <HomeReduxCon/>
     </div>
   );
 }
