@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Demo from './components/Demo';
+import User from './components/Redux/User';
 // import Home from './components/Home';
 // import Profile from './components/Profile';
 // import FunctionBase from './components/FunctionBase';
@@ -16,7 +16,7 @@ import Demo from './components/Demo';
 function App() {
   return (
     <div className="App">
-      <center><h1> Welcome  To React Js in  One Videos 120</h1></center>
+      <center><h1> Welcome  To React Redux  in  One Page</h1></center>
       {/* <Home/>
       <Profile/>
       <FunctionBase title="Function Base (props)" title2={{name:'Mukesh Kumar'}}/>
@@ -26,8 +26,7 @@ function App() {
      <HooksMeathod/>
      <Form/> */}
 
-
-     <Demo/>
+     <User data={{name:'Mukesh Kumar',age:23}}/>
     </div>
   );
 }
